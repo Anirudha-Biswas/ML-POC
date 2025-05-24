@@ -5,7 +5,7 @@ import joblib
 import matplotlib.pyplot as plt
 
 # Load model
-model = joblib.load('bp_model_v1.pkl')
+model = joblib.load('BP_Predictor/bp_model_v1.pkl')
 
 # App UI
 st.title("🩺 Blood Pressure Predictor")
